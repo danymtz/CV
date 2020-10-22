@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -42,7 +41,7 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
 .navegar li {
     list-style: none;
     display: inline-block;
-    padding-left: 10%;
+    padding-left: 12%;
 }
 
 a {
