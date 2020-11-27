@@ -9,8 +9,10 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
 }
 
 .titulo {
+    padding-left: 45%;
+    padding-top: 2%;
     font-family: sans-serif;
-    font-size: 30pt;
+    font-size: 230%;
     color: white;
 }
 
@@ -42,4 +44,52 @@ li {
     font-family: sans-serif;
     font-size: 12pt;
     color: white;
+}
+
+@media (max-width: 1080px) {
+    .titulo {
+        padding-left: 35%;
+        padding-top: 4%;
+        font-size: 600%;
+    }
+
+    .cabeza h2 {
+        font-size: 263%;
+        margin-left: 10%;
+        padding-top: 2%;
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+
+    h1 {
+        font-size: 370%;
+        padding-left: 10%;
+        padding-top: 2%;
+    }
+
+    h2 {
+        font-size: 300%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    p, .education {
+        margin-top: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 230%;
+    }
+
+    .education ul li {
+        margin-left: 10%;
+        margin-top: 5%;
+        font-size: 100%;
+    }
+
+    .pskills li {
+        margin-left: 10%;
+        font-size: 200%;
+    }
 }
